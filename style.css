@@ -1,0 +1,100 @@
+html {
+    font-family: "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft Yahei", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
+}
+
+body {
+    background: #fcfaf2;
+    color: #1c1c1c;
+}
+
+body::before {
+    opacity: 0.16;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: url(background.png) center/cover no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #005caf;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header {
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+header img.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+header p.name {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header p.description {
+    font-size: 1em;
+}
+
+#container {
+    width: 640px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.card {
+    font-size: 0.9em;
+    background: #fffffb;
+    border: #bdc0ba 1px solid;
+    padding: 0 20px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    margin-top: 30px;
+    font-size: 0.9em;
+    text-align: center;
+    color: #828282;
+}
+
+.contact span.lead{
+    font-weight: bold;
+    margin-right: 20px;
+    color: #1c1c1c;
+}
+
+.links {
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+    color: #828282;
+}
+
+.links span.lead{
+    font-weight: bold;
+    margin-right: 20px;
+    color: #1c1c1c;
+}
+
+footer {
+    color: #828282;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: -10px;
+}
